@@ -305,3 +305,455 @@ body {
     }
 
 }
+
+@media screen and (max-width: 430px) {
+
+    #home,
+    #contacts,
+    #download,
+    #login{
+        display: none;
+    }
+    
+    #home:active,
+    #contacts:active,
+    #download:active,
+    #login:active {
+        display: none;
+    }
+    
+    
+    #logo{
+        width: 180px;
+        margin-left: 100px;
+        position: absolute;
+        transition: transform 0.3s ease;
+    
+    }
+
+    #titolo {
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20%;
+        color: white;
+        text-shadow: 0px 6px 0px rgb(139, 138, 138); 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #descrizione {
+        position: absolute;
+        font-weight: bold;
+        text-align:left;
+        font-size: 30px;
+        width: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 35%;
+        color: #ffffff;
+        text-shadow: 0px 3px 0px #767b7d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #downloadgame{
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        left: 19%;
+        top: 85%;
+        padding: 10px 20px;
+        color: white;
+        background-color: #4CAF50;
+        box-shadow: 3px 8px 0px #255928;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.1s ease;
+    }
+
+    #immaginedesc{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    #home,
+    #contacts,
+    #download,
+    #login{
+        display: none;
+    }
+    
+    #home:active,
+    #contacts:active,
+    #download:active,
+    #login:active {
+        display: none;
+    }
+    
+    
+    #logo{
+        width: 180px;
+        margin-left: 100px;
+        position: absolute;
+        transition: transform 0.3s ease;
+    
+    }
+
+    #titolo {
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20%;
+        color: white;
+        text-shadow: 0px 6px 0px rgb(139, 138, 138); 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #descrizione {
+        position: absolute;
+        font-weight: bold;
+        text-align:left;
+        font-size: 30px;
+        width: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 35%;
+        color: #ffffff;
+        text-shadow: 0px 3px 0px #767b7d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #downloadgame{
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        left: 19%;
+        top: 85%;
+        padding: 10px 20px;
+        color: white;
+        background-color: #4CAF50;
+        box-shadow: 3px 8px 0px #255928;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.1s ease;
+    }
+
+    #immaginedesc{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #home,
+    #contacts,
+    #download,
+    #login{
+        display: none;
+    }
+    
+    #home:active,
+    #contacts:active,
+    #download:active,
+    #login:active {
+        display: none;
+    }
+    
+    
+    #logo{
+        width: 180px;
+        margin-left: 100px;
+        position: absolute;
+        transition: transform 0.3s ease;
+    
+    }
+
+    #titolo {
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 70px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20%;
+        color: white;
+        text-shadow: 0px 6px 0px rgb(139, 138, 138); 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    #descrizione {
+        position: absolute;
+        font-weight: bold;
+        text-align:left;
+        font-size: 30px;
+        width: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 35%;
+        color: #ffffff;
+        text-shadow: 0px 3px 0px #767b7d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #downloadgame{
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        left: 19%;
+        top: 85%;
+        padding: 10px 20px;
+        color: white;
+        background-color: #4CAF50;
+        box-shadow: 3px 8px 0px #255928;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.1s ease;
+    }
+
+    #immaginedesc{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 2560px) {
+
+    body {
+        background-image: url('https://cdn.discordapp.com/attachments/1185341318491279361/1238846325924040734/bg.png?ex=6640c50c&is=663f738c&hm=8911ed24b85e1102e8108c43e5439855b9d3a57255bbb2f60322bea143af2a35&');
+        background-size:cover;
+    }
+    
+    #home:hover,
+    #contacts:hover,
+    #download:hover,
+    #login:hover {
+        color: #8C3631;
+        text-shadow: 1px 1px 10px rgb(66, 13, 13);
+        position: relative;
+        top: 4px;
+        transition: all 0.3s ease;
+    }
+
+    
+    #logo{
+        width: 300px;
+        margin-left: 50px;
+        position: absolute;
+        transition: transform 0.3s ease;
+
+    }
+
+    #home,
+    #contacts,
+    #download,
+    #login{
+        background-color: transparent;
+        border: 0;
+        font-size: 40px;
+        color: white;
+        float: right;
+        margin-right: 80px;
+        margin-top: 40px;
+        text-shadow: 1px 1px 10px black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transition: all 0.3s ease;
+    }
+
+    #home:active,
+    #contacts:active,
+    #download:active,
+    #login:active {
+        transform: scale(0.95);
+    }
+
+
+    #titolo {
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 120px;
+        left: 15%;
+        transform: translateX(-50%);
+        top: 30%;
+        color: white;
+        text-shadow: 0px 6px 0px rgb(139, 138, 138); 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
+    #descrizione {
+        position: absolute;
+        font-weight: bold;
+        text-align:justify;
+        font-size: 50px;
+        left: 34%;
+        transform: translateX(-50%);
+        top: 45%;
+        color: #ffffff;
+        text-shadow: 0px 3px 0px #767b7d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #downloadgame{
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 90px;
+        left: 5%;
+        top: 67%;
+        padding: 10px 20px;
+        color: white;
+        background-color: #4CAF50;
+        box-shadow: 3px 8px 0px #255928;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.1s ease;
+    }
+
+    #immaginedesc{
+        position: absolute;
+        width: 35%;
+        left: 60%;
+        top: 20%;
+        filter: drop-shadow(20px 20px 20px black); 
+    }
+
+}
+
+
+
+@media screen and (max-width: 1920px) {
+
+    body {
+        background-image: url('https://cdn.discordapp.com/attachments/1185341318491279361/1238846325924040734/bg.png?ex=6640c50c&is=663f738c&hm=8911ed24b85e1102e8108c43e5439855b9d3a57255bbb2f60322bea143af2a35&');
+    }
+    
+    
+    #home:hover,
+    #contacts:hover,
+    #download:hover,
+    #login:hover {
+        color: #8C3631;
+        text-shadow: 1px 1px 10px rgb(66, 13, 13);
+        position: relative;
+        top: 4px;
+        transition: all 0.3s ease;
+    }
+    
+    #home,
+    #contacts,
+    #download,
+    #login{
+        background-color: transparent;
+        border: 0;
+        font-size: 25px;
+        color: white;
+        float: right;
+        margin-right: 80px;
+        margin-top: 25px;
+        text-shadow: 1px 1px 10px black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transition: all 0.3s ease;
+    }
+    
+    #home:active,
+    #contacts:active,
+    #download:active,
+    #login:active {
+        transform: scale(0.95);
+    }
+    
+    
+    #logo{
+        width: 180px;
+        margin-left: 50px;
+        position: absolute;
+        transition: transform 0.3s ease;
+    
+    }
+    
+    #titolo {
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 70px;
+        left: 13%;
+        transform: translateX(-50%);
+        top: 30%;
+        color: white;
+        text-shadow: 0px 6px 0px rgb(139, 138, 138); 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    #descrizione {
+        position: absolute;
+        font-weight: bold;
+        text-align:justify;
+        font-size: 25px;
+        left: 24%;
+        transform: translateX(-50%);
+        top: 43%;
+        color: #ffffff;
+        text-shadow: 0px 3px 0px #767b7d;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    
+    #downloadgame {
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        left: 5%;
+        top: 60%;
+        padding: 10px 20px;
+        color: white;
+        background-color: #4CAF50;
+        box-shadow: 3px 8px 0px #255928;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.1s ease;
+    }
+    
+    #downloadgame:hover {
+        background-color: #45a049;
+        box-shadow: 3px 8px 0px #255928;
+        transform: translateY(-5px);
+    }
+    
+    #downloadgame:active {
+        background-color: #45a049;
+        box-shadow: 3px 4px 0px #255928;
+        transform: translateY(0px);
+    }
+    
+    #immaginedesc{
+        position: absolute;
+        left: 55%;
+        top: 20%;
+        filter: drop-shadow(20px 20px 20px black); 
+    }
+
+}
